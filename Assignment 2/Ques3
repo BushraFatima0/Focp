@@ -1,0 +1,16 @@
+//FIND OUT WHO SCORRED FIRST 99 IN MARKS ARRAY
+#include <stdio.h>
+int main() 
+{
+    //ques3
+    int marks[15]={67,75,86,69,92,46,99,72,25,86,90,54,76,75,99};
+    for(int i=0;i<15;i++)
+    {
+        if(marks[i]==99)
+        {
+            printf("First 99 found at index:%d",i);
+            break;
+        }
+    }
+    return 0;
+}
