@@ -1,0 +1,19 @@
+//TO ACCEPT X,Y COORDINATES AND DETRMINE THE QUADRENT THEY BELONG TO
+
+#include <stdio.h>
+int main() 
+{
+    //ques 6
+    int x,y;
+    printf("Enter x,y coordinates:\n");
+    scanf("%d %d",&x,&y);
+    if(x>0 && y>0)
+    printf("First Quadrent");
+    else if(x<0 && y>0)
+    printf("Second Quadrent");
+    else if(x<0 && y<0)
+    printf("Third Quadrent");
+    else if(x>0 && y<0)
+    printf("Fourth Quadrent");
+    return 0;
+}
