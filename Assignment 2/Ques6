@@ -1,0 +1,15 @@
+//AVG SCORE OF MARKS ARRAY
+#include <stdio.h>
+int main() 
+{
+    //ques6
+    int sum=0,avg;
+    int marks[5]={67,75,86,69,92};
+    for(int i=0;i<5;i++)
+    {
+        sum+=marks[i];
+    }
+    avg=sum/5;
+    printf("AVG=%d",avg);
+    return 0;
+}
