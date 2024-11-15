@@ -1,0 +1,15 @@
+//TO SUBTRACT TWO INTEGERS WITHOUT USING MINUS(-) OPERATOR
+
+#include <stdio.h>
+#include <math.h>
+int main() 
+{   // Ques 3
+    int a,b,Sub;
+    printf("Enter first no. = ");
+    scanf("%d",&a);
+    printf("Enter second no. = ");
+    scanf("%d",&b);
+    Sub=a+~b+1;
+    printf("Subtraction of two no. without using minus sign = %d",Sub);
+    return 0;
+}
